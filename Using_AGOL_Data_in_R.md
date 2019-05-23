@@ -1,3 +1,5 @@
+# Using ArcGIS Online Data in R
+
 ### Bill DeVoe, MaineDMR GIS Coordinator, <a href="mailto:William.DeVoe@maine.gov" class="email">William.DeVoe@maine.gov</a>
 
 Pulling data from an item’s Open Data page
