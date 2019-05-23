@@ -1,10 +1,8 @@
 ---
 title: "Linking R to data from ArcGIS Online and Open Data"
 output:
-  html_notebook: default
-  html_document:
-    df_print: paged
-  pdf_document: default
+  md_document:
+    variant: markdown_github
 ---
 
 ### Bill DeVoe, MaineDMR GIS Coordinator, William.DeVoe@maine.gov
@@ -15,8 +13,9 @@ Using the example of lobster zones - under the Download button is a link for a S
 
 Grabbing the link to the GeoJSON, this can be converted to an SP object using the `geojsonio` package.
 
-```{r}
+```{r get geojson, echo=TRUE}
 library(geojsonio) 
+library(sp)
 
 # URL to query for GeoJSON
 url <- "https://opendata.arcgis.com/datasets/55a305a17acd46f58675d955e4fcaa83_0.geojson"
@@ -25,8 +24,7 @@ zones <- geojsonio::geojson_read(url, what="sp")
 # Columns have full names
 names(zones)
 # Take a look
-plot(zones)
-
+sp::spplot(zones)
 ```
 
 
