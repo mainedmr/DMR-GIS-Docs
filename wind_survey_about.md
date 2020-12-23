@@ -19,10 +19,10 @@ We estimate this survey will take 10-15 minutes to complete. The survey includes
 
 Several questions in this survey ask that you proportion catch per quarter across variables such as depth and distance from shore. In all of these tables, the total for each quarterly column should be 100% (or 0% if you do not fish a given quarter). Messages below the table will indicate if the column does not total 100%. The following example shows the distance table filled out with proportions per quarter:
 
-![Example Correctly Filled Out Proportional Table](/wind_survey_imgs/prop_table_example.jpg)
+![Example Correctly Filled Out Proportional Table](/wind_survey_imgs/prop_table_example.jpg?raw=true)
 
 In this second example, the respondent indicated they did not fish in the first quarter by placing a zero in that column, but the second quarter column does not total 100%:
 
-![Example Incorrectly Filled Out Proportional Table](/wind_survey_imgs/prop_table_example2.jpg)
+![Example Incorrectly Filled Out Proportional Table](/wind_survey_imgs/prop_table_example2.jpg?raw=true)
 
 To begin the survey, click the green Begin button below. Throughout the survey, your progress will be displayed in the top bar.
